@@ -6,4 +6,4 @@ print(x[2])
 print(x[3])
 
 for y in x:
- print(x)
+ print(x + "bla bla bla car")

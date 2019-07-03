@@ -1,8 +1,11 @@
-x = ["apple","banana","cherry"]
-x[1] = 'blackcurrant'
-print(x[0])
-print(x[1])
-print(x[2])
+thisdict = {
 
-for y in x:
- print(y + "bla bla bla car")
+"brand":"Ford",
+"model":"Mustang",
+"year":1964
+
+}
+
+print(thisdict)
+x = thisdict["model"]
+print(x)
